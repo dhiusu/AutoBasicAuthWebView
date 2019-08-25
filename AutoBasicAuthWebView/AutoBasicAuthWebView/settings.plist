@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Auth Test</key>
+	<dict>
+		<key>Basic Auth Password</key>
+		<string>naisho</string>
+		<key>Basic Auth User</key>
+		<string>kaiin</string>
+		<key>URL</key>
+		<string>http://leggiero.sakura.ne.jp/xxxxbasic_auth_testxxxx/secret/kaiin_page_top.htm</string>
+	</dict>
+</dict>
+</plist>

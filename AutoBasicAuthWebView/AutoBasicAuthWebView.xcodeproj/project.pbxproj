@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C02AAFF223111C8200AD991B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02AAFF123111C8200AD991B /* WebKit.framework */; };
+		C02AAFF423122F9F00AD991B /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = C02AAFF323122F9F00AD991B /* settings.plist */; };
 		C0F523382311151A00A5C0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F523372311151A00A5C0F7 /* AppDelegate.swift */; };
 		C0F5233A2311151A00A5C0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F523392311151A00A5C0F7 /* ViewController.swift */; };
 		C0F5233D2311151A00A5C0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F5233B2311151A00A5C0F7 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		C02AAFF123111C8200AD991B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C02AAFF323122F9F00AD991B /* settings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
 		C0F523342311151A00A5C0F7 /* AutoBasicAuthWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoBasicAuthWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F523372311151A00A5C0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0F523392311151A00A5C0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				C0F5233E2311152100A5C0F7 /* Assets.xcassets */,
 				C0F523402311152100A5C0F7 /* LaunchScreen.storyboard */,
 				C0F523432311152100A5C0F7 /* Info.plist */,
+				C02AAFF323122F9F00AD991B /* settings.plist */,
 			);
 			path = AutoBasicAuthWebView;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0F523422311152100A5C0F7 /* LaunchScreen.storyboard in Resources */,
+				C02AAFF423122F9F00AD991B /* settings.plist in Resources */,
 				C0F5233F2311152100A5C0F7 /* Assets.xcassets in Resources */,
 				C0F5233D2311151A00A5C0F7 /* Main.storyboard in Resources */,
 			);

@@ -38,7 +38,15 @@ extension ViewController: WKNavigationDelegate {
         switch challenge.protectionSpace.authenticationMethod {
         case NSURLAuthenticationMethodHTTPBasic:
             // Basic authrization
-            let credential = URLCredential(user: "kaiin", password: "naisho", persistence: URLCredential.Persistence.forSession)
+            
+            let filePath = Bundle.main.path(forResource: "settings", ofType:"plist" )
+            let plist = NSDictionary(contentsOfFile: filePath!)
+            
+            let authTest = plist?.value(forKey: "Auth Test")! as! NSDictionary
+            let authUser = authTest.value(forKey: "Basic Auth User")! as! String
+            let authPassword = authTest.value(forKey: "Basic Auth Password")! as! String
+            
+            let credential = URLCredential(user: authUser, password: authPassword, persistence: URLCredential.Persistence.forSession)
             completionHandler(.useCredential, credential)
             
         default:
